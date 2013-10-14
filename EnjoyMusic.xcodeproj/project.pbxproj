@@ -1,0 +1,365 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		79FB80F617E6C84C00E857FA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79FB80F517E6C84C00E857FA /* UIKit.framework */; };
+		79FB80F817E6C84C00E857FA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79FB80F717E6C84C00E857FA /* Foundation.framework */; };
+		79FB80FA17E6C84C00E857FA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79FB80F917E6C84C00E857FA /* CoreGraphics.framework */; };
+		79FB810017E6C84C00E857FA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 79FB80FE17E6C84C00E857FA /* InfoPlist.strings */; };
+		79FB810217E6C84C00E857FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 79FB810117E6C84C00E857FA /* main.m */; };
+		79FB810617E6C84C00E857FA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 79FB810517E6C84C00E857FA /* AppDelegate.m */; };
+		79FB810817E6C84C00E857FA /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 79FB810717E6C84C00E857FA /* Default.png */; };
+		79FB810A17E6C84C00E857FA /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 79FB810917E6C84C00E857FA /* Default@2x.png */; };
+		79FB810C17E6C84C00E857FA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 79FB810B17E6C84C00E857FA /* Default-568h@2x.png */; };
+		79FB811417E6CE2600E857FA /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79FB811317E6CE2600E857FA /* LeftViewController.m */; };
+		79FB811717E6CE7300E857FA /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79FB811617E6CE7300E857FA /* HomeViewController.m */; };
+		79FB811D17E6CEF500E857FA /* SongListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79FB811C17E6CEF500E857FA /* SongListViewController.m */; };
+		79FB812017E6CF4300E857FA /* HotListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79FB811F17E6CF4300E857FA /* HotListViewController.m */; };
+		79FB812317E6CF5900E857FA /* SingerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79FB812217E6CF5900E857FA /* SingerViewController.m */; };
+		79FB812617E6CF8500E857FA /* RightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79FB812517E6CF8500E857FA /* RightViewController.m */; };
+		79FB813117E6D11200E857FA /* MMDrawerBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 79FB812A17E6D11200E857FA /* MMDrawerBarButtonItem.m */; };
+		79FB813217E6D11200E857FA /* MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79FB812C17E6D11200E857FA /* MMDrawerController.m */; };
+		79FB813317E6D11200E857FA /* MMDrawerVisualState.m in Sources */ = {isa = PBXBuildFile; fileRef = 79FB812E17E6D11200E857FA /* MMDrawerVisualState.m */; };
+		79FB813417E6D11200E857FA /* UIViewController+MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79FB813017E6D11200E857FA /* UIViewController+MMDrawerController.m */; };
+		79FB813717E6D22400E857FA /* MMExampleDrawerVisualStateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 79FB813617E6D22400E857FA /* MMExampleDrawerVisualStateManager.m */; };
+		79FB813917E6D26B00E857FA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79FB813817E6D26B00E857FA /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		79FB80F217E6C84C00E857FA /* EnjoyMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EnjoyMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		79FB80F517E6C84C00E857FA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		79FB80F717E6C84C00E857FA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		79FB80F917E6C84C00E857FA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		79FB80FD17E6C84C00E857FA /* EnjoyMusic-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EnjoyMusic-Info.plist"; sourceTree = "<group>"; };
+		79FB80FF17E6C84C00E857FA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		79FB810117E6C84C00E857FA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		79FB810317E6C84C00E857FA /* EnjoyMusic-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EnjoyMusic-Prefix.pch"; sourceTree = "<group>"; };
+		79FB810417E6C84C00E857FA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		79FB810517E6C84C00E857FA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		79FB810717E6C84C00E857FA /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		79FB810917E6C84C00E857FA /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		79FB810B17E6C84C00E857FA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		79FB811217E6CE2600E857FA /* LeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LeftViewController.h; path = LeftViewController/LeftViewController.h; sourceTree = "<group>"; };
+		79FB811317E6CE2600E857FA /* LeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LeftViewController.m; path = LeftViewController/LeftViewController.m; sourceTree = "<group>"; };
+		79FB811517E6CE7300E857FA /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeViewController.h; path = CenterViewController/HomeViewController.h; sourceTree = "<group>"; };
+		79FB811617E6CE7300E857FA /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeViewController.m; path = CenterViewController/HomeViewController.m; sourceTree = "<group>"; };
+		79FB811B17E6CEF500E857FA /* SongListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SongListViewController.h; path = CenterViewController/SongListViewController.h; sourceTree = "<group>"; };
+		79FB811C17E6CEF500E857FA /* SongListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SongListViewController.m; path = CenterViewController/SongListViewController.m; sourceTree = "<group>"; };
+		79FB811E17E6CF4300E857FA /* HotListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HotListViewController.h; path = CenterViewController/HotListViewController.h; sourceTree = "<group>"; };
+		79FB811F17E6CF4300E857FA /* HotListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HotListViewController.m; path = CenterViewController/HotListViewController.m; sourceTree = "<group>"; };
+		79FB812117E6CF5900E857FA /* SingerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SingerViewController.h; path = CenterViewController/SingerViewController.h; sourceTree = "<group>"; };
+		79FB812217E6CF5900E857FA /* SingerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SingerViewController.m; path = CenterViewController/SingerViewController.m; sourceTree = "<group>"; };
+		79FB812417E6CF8500E857FA /* RightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RightViewController.h; path = RightViewController/RightViewController.h; sourceTree = "<group>"; };
+		79FB812517E6CF8500E857FA /* RightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RightViewController.m; path = RightViewController/RightViewController.m; sourceTree = "<group>"; };
+		79FB812717E6D09500E857FA /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		79FB812917E6D11200E857FA /* MMDrawerBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerBarButtonItem.h; sourceTree = "<group>"; };
+		79FB812A17E6D11200E857FA /* MMDrawerBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerBarButtonItem.m; sourceTree = "<group>"; };
+		79FB812B17E6D11200E857FA /* MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerController.h; sourceTree = "<group>"; };
+		79FB812C17E6D11200E857FA /* MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerController.m; sourceTree = "<group>"; };
+		79FB812D17E6D11200E857FA /* MMDrawerVisualState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerVisualState.h; sourceTree = "<group>"; };
+		79FB812E17E6D11200E857FA /* MMDrawerVisualState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerVisualState.m; sourceTree = "<group>"; };
+		79FB812F17E6D11200E857FA /* UIViewController+MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MMDrawerController.h"; sourceTree = "<group>"; };
+		79FB813017E6D11200E857FA /* UIViewController+MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MMDrawerController.m"; sourceTree = "<group>"; };
+		79FB813517E6D22400E857FA /* MMExampleDrawerVisualStateManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMExampleDrawerVisualStateManager.h; sourceTree = "<group>"; };
+		79FB813617E6D22400E857FA /* MMExampleDrawerVisualStateManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMExampleDrawerVisualStateManager.m; sourceTree = "<group>"; };
+		79FB813817E6D26B00E857FA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79FB80EF17E6C84C00E857FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79FB813917E6D26B00E857FA /* QuartzCore.framework in Frameworks */,
+				79FB80F617E6C84C00E857FA /* UIKit.framework in Frameworks */,
+				79FB80F817E6C84C00E857FA /* Foundation.framework in Frameworks */,
+				79FB80FA17E6C84C00E857FA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		79FB80E917E6C84C00E857FA = {
+			isa = PBXGroup;
+			children = (
+				79FB813817E6D26B00E857FA /* QuartzCore.framework */,
+				79FB80FB17E6C84C00E857FA /* EnjoyMusic */,
+				79FB80F417E6C84C00E857FA /* Frameworks */,
+				79FB80F317E6C84C00E857FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		79FB80F317E6C84C00E857FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79FB80F217E6C84C00E857FA /* EnjoyMusic.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79FB80F417E6C84C00E857FA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				79FB80F517E6C84C00E857FA /* UIKit.framework */,
+				79FB80F717E6C84C00E857FA /* Foundation.framework */,
+				79FB80F917E6C84C00E857FA /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		79FB80FB17E6C84C00E857FA /* EnjoyMusic */ = {
+			isa = PBXGroup;
+			children = (
+				79FB812817E6D11200E857FA /* MMDrawerController1 */,
+				79FB810417E6C84C00E857FA /* AppDelegate.h */,
+				79FB810517E6C84C00E857FA /* AppDelegate.m */,
+				79FB811217E6CE2600E857FA /* LeftViewController.h */,
+				79FB811317E6CE2600E857FA /* LeftViewController.m */,
+				79FB811517E6CE7300E857FA /* HomeViewController.h */,
+				79FB811617E6CE7300E857FA /* HomeViewController.m */,
+				79FB811B17E6CEF500E857FA /* SongListViewController.h */,
+				79FB811C17E6CEF500E857FA /* SongListViewController.m */,
+				79FB811E17E6CF4300E857FA /* HotListViewController.h */,
+				79FB811F17E6CF4300E857FA /* HotListViewController.m */,
+				79FB812117E6CF5900E857FA /* SingerViewController.h */,
+				79FB812217E6CF5900E857FA /* SingerViewController.m */,
+				79FB812417E6CF8500E857FA /* RightViewController.h */,
+				79FB812517E6CF8500E857FA /* RightViewController.m */,
+				79FB812717E6D09500E857FA /* Header.h */,
+				79FB80FC17E6C84C00E857FA /* Supporting Files */,
+			);
+			path = EnjoyMusic;
+			sourceTree = "<group>";
+		};
+		79FB80FC17E6C84C00E857FA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				79FB80FD17E6C84C00E857FA /* EnjoyMusic-Info.plist */,
+				79FB80FE17E6C84C00E857FA /* InfoPlist.strings */,
+				79FB810117E6C84C00E857FA /* main.m */,
+				79FB810317E6C84C00E857FA /* EnjoyMusic-Prefix.pch */,
+				79FB810717E6C84C00E857FA /* Default.png */,
+				79FB810917E6C84C00E857FA /* Default@2x.png */,
+				79FB810B17E6C84C00E857FA /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		79FB812817E6D11200E857FA /* MMDrawerController1 */ = {
+			isa = PBXGroup;
+			children = (
+				79FB812917E6D11200E857FA /* MMDrawerBarButtonItem.h */,
+				79FB812A17E6D11200E857FA /* MMDrawerBarButtonItem.m */,
+				79FB813517E6D22400E857FA /* MMExampleDrawerVisualStateManager.h */,
+				79FB813617E6D22400E857FA /* MMExampleDrawerVisualStateManager.m */,
+				79FB812B17E6D11200E857FA /* MMDrawerController.h */,
+				79FB812C17E6D11200E857FA /* MMDrawerController.m */,
+				79FB812D17E6D11200E857FA /* MMDrawerVisualState.h */,
+				79FB812E17E6D11200E857FA /* MMDrawerVisualState.m */,
+				79FB812F17E6D11200E857FA /* UIViewController+MMDrawerController.h */,
+				79FB813017E6D11200E857FA /* UIViewController+MMDrawerController.m */,
+			);
+			path = MMDrawerController1;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		79FB80F117E6C84C00E857FA /* EnjoyMusic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79FB810F17E6C84C00E857FA /* Build configuration list for PBXNativeTarget "EnjoyMusic" */;
+			buildPhases = (
+				79FB80EE17E6C84C00E857FA /* Sources */,
+				79FB80EF17E6C84C00E857FA /* Frameworks */,
+				79FB80F017E6C84C00E857FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EnjoyMusic;
+			productName = EnjoyMusic;
+			productReference = 79FB80F217E6C84C00E857FA /* EnjoyMusic.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		79FB80EA17E6C84C00E857FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "王鹏";
+			};
+			buildConfigurationList = 79FB80ED17E6C84C00E857FA /* Build configuration list for PBXProject "EnjoyMusic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 79FB80E917E6C84C00E857FA;
+			productRefGroup = 79FB80F317E6C84C00E857FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79FB80F117E6C84C00E857FA /* EnjoyMusic */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		79FB80F017E6C84C00E857FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79FB810017E6C84C00E857FA /* InfoPlist.strings in Resources */,
+				79FB810817E6C84C00E857FA /* Default.png in Resources */,
+				79FB810A17E6C84C00E857FA /* Default@2x.png in Resources */,
+				79FB810C17E6C84C00E857FA /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79FB80EE17E6C84C00E857FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79FB810217E6C84C00E857FA /* main.m in Sources */,
+				79FB810617E6C84C00E857FA /* AppDelegate.m in Sources */,
+				79FB811417E6CE2600E857FA /* LeftViewController.m in Sources */,
+				79FB811717E6CE7300E857FA /* HomeViewController.m in Sources */,
+				79FB811D17E6CEF500E857FA /* SongListViewController.m in Sources */,
+				79FB812017E6CF4300E857FA /* HotListViewController.m in Sources */,
+				79FB812317E6CF5900E857FA /* SingerViewController.m in Sources */,
+				79FB812617E6CF8500E857FA /* RightViewController.m in Sources */,
+				79FB813117E6D11200E857FA /* MMDrawerBarButtonItem.m in Sources */,
+				79FB813217E6D11200E857FA /* MMDrawerController.m in Sources */,
+				79FB813317E6D11200E857FA /* MMDrawerVisualState.m in Sources */,
+				79FB813417E6D11200E857FA /* UIViewController+MMDrawerController.m in Sources */,
+				79FB813717E6D22400E857FA /* MMExampleDrawerVisualStateManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		79FB80FE17E6C84C00E857FA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79FB80FF17E6C84C00E857FA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		79FB810D17E6C84C00E857FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		79FB810E17E6C84C00E857FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		79FB811017E6C84C00E857FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EnjoyMusic/EnjoyMusic-Prefix.pch";
+				INFOPLIST_FILE = "EnjoyMusic/EnjoyMusic-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		79FB811117E6C84C00E857FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EnjoyMusic/EnjoyMusic-Prefix.pch";
+				INFOPLIST_FILE = "EnjoyMusic/EnjoyMusic-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		79FB80ED17E6C84C00E857FA /* Build configuration list for PBXProject "EnjoyMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79FB810D17E6C84C00E857FA /* Debug */,
+				79FB810E17E6C84C00E857FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79FB810F17E6C84C00E857FA /* Build configuration list for PBXNativeTarget "EnjoyMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79FB811017E6C84C00E857FA /* Debug */,
+				79FB811117E6C84C00E857FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 79FB80EA17E6C84C00E857FA /* Project object */;
+}
